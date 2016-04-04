@@ -23,6 +23,7 @@ class Moab < Formula
       "--disable-dependency-tracking",
       "--enable-shared",
       "--enable-static",
+      "--enable-dagmc",
       "--prefix=#{prefix}",
       "--with-netcdf=#{Formula["netcdf"].opt_prefix}",
       "--with-hdf5=#{Formula["hdf5"].opt_prefix}",
